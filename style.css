@@ -1,0 +1,28 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    background: radial-gradient(#cecece,rgb(47, 47, 45));
+    font-family: sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+}
+input{
+    background-color: #ffffff;
+    border: none;
+    border-radius: 20px;
+    font-size: 2rem;
+    padding: 1 rem;
+    min-width: 300px;
+    min-height: 50px;
+}
+input:focus{
+    outline: #cecece;
+}
+.weather{
+    font-size: 2rem;
+    text-align: center;
+}
